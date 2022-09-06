@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cloudiness vs Latitude</title>
+    <title>Cloudiness Across Latitude</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
   <body>
@@ -37,36 +37,56 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid bg-light">
+    <div class="container-fluid bg-white">
       <div class="container">
         <div class="row">
           <!-- plot info -->
-          <div class="col-md-7 col-xs-12 me-auto bg-white">
-            <img src="../assets/images/cloudiness_vs_latitude.png" width="400px" alt="Graph wind speed vs latitude">
+          <div class="col-md-6 col-xs-12 m-auto my-5 bg-light">
+            <!-- title -->
+            <div class="row px-3 pt-3">
+              <h1>Cloudiness Across Latitude</h1>
+            </div>
+            <!-- image -->
+            <div class="row px-3">
+              <img src="../assets/images/cloudiness_vs_latitude.png" class="img-responsive" alt="Graph cloudiness vs latitude">
+            </div>
+            <!-- text -->
+            <div class="row p-3">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eum suscipit est numquam animi voluptatum placeat rerum consequatur iusto? Commodi veritatis accusantium voluptas nostrum deleniti quisquam illum fuga maiores alias!</p>
+            </div>
           </div>
           <!-- visualizations -->
-          <div class="col-md-4 ms-auto bg-white">
+          <div class="col-md-4 mb-auto my-5 bg-light">
             <div class="container">
+              <!-- title -->
               <div class="row">
                 <div class="col-md-12">
                   <h3 class="mt-3 mb-1 text-center">Visualizations</h3>
                 </div>
               </div>
+              <!-- line break -->
               <div class="row">
                 <hr/>
               </div>
+              <!-- images -->
+              <!-- first line -->
               <div class="row">
+                <!-- temp -->
                 <div class="col-md-6">
                   <a href="temp_vs_lat.html"><img src="../assets/images/temperature_vs_latitude.png" class="mt-1 img-responsive img-thumbnail"/></a>
                 </div>
+                <!-- humidty -->
                 <div class="col-md-6">
                   <a href="humid_vs_lat.html"><img src="../assets/images/humidity_vs_latitude.png" class="mt-1 img-responsive img-thumbnail"/></a>
                 </div>
               </div>
+              <!-- second line -->
               <div class="row">
+                <!-- clouds -->
                 <div class="col-md-6">
                   <a href="cloud_vs_lat.html"><img src="../assets/images/cloudiness_vs_latitude.png" class="mb-3 mt-3 img-responsive img-fluid img-thumbnail"/></a>
                 </div>
+                <!-- wind -->
                 <div class="col-md-6">
                   <a href="wind_vs_lat.html"><img src="../assets/images/wind speed_vs_latitude.png" class="mb-3 mt-3 img-responsive img-fluid img-thumbnail"/></a>
                 </div>
